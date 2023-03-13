@@ -23,10 +23,12 @@ CobrowseIO.customData = {
   //user_name: "<your_user_name>",
   //user_email: "<your_user_email>",
   //device_id: device.name,
-  device_name: "PaginaWeb2",
+  device_name: "https://web.emtelco.co",
   CustomAttrute: "ValorZ",
 };
-CobrowseIO.license = "lPJHf601tWutLw"; //cambiao de licencia de GC
+CobrowseIO.license = "Ff15cMkwxJyCcg";
+
+//CobrowseIO.license = "lPJHf601tWutLw"; //cambiao de licencia de GC
 
 CobrowseIO.client().then(function () {
   CobrowseIO.on("session.loaded", (session) => {
@@ -40,6 +42,11 @@ CobrowseIO.client().then(function () {
   CobrowseIO.on("session.ended", (session) => {
     console.log("A session was ended", session);
   });
+ CobrowseIO.trustedOrigins = [
+    'https://web.emtelco.co'// parent origin to trust
+    
+];
+  
 
   CobrowseIO.start();
 });

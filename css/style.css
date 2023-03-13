@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+
+/* Navbar */
+
+.navbar-dark {
+    background-color: #512da8;
+}
+
+
+/* Header y contenido */
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #d1c4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 0px 30px 0px;
+    margin: 0px auto;
+    background: #9575cd;
+    color: floralwhite;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+.mr-3 {
+    margin-right: 1rem;
+}
+
+.div1 {
+    width: 40%;
+    margin: 10px;
+}
