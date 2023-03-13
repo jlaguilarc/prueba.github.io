@@ -26,9 +26,9 @@ CobrowseIO.customData = {
   device_name: "https://web.emtelco.co",
   CustomAttrute: "ValorZ",
 };
-CobrowseIO.license = "Ff15cMkwxJyCcg";
+//CobrowseIO.license = "Ff15cMkwxJyCcg";
 
-//CobrowseIO.license = "lPJHf601tWutLw"; //cambiao de licencia de GC
+CobrowseIO.license = "lPJHf601tWutLw"; //cambiao de licencia de GC
 
 CobrowseIO.client().then(function () {
   CobrowseIO.on("session.loaded", (session) => {
